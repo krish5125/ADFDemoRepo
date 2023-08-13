@@ -1,0 +1,9 @@
+{
+	"name": "ADFdemoTestbala",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7f6fa3ed-5749-4e9a-b556-40e7be45a45f",
+		"tenantId": "8d281d1d-9c4d-4bf7-b16e-032d15de9f6c"
+	}
+}
