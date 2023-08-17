@@ -1,0 +1,64 @@
+{
+	"name": "diamonds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "diamonds.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "carat",
+				"type": "String"
+			},
+			{
+				"name": "cut",
+				"type": "String"
+			},
+			{
+				"name": "color",
+				"type": "String"
+			},
+			{
+				"name": "clarity",
+				"type": "String"
+			},
+			{
+				"name": "depth",
+				"type": "String"
+			},
+			{
+				"name": "table_",
+				"type": "String"
+			},
+			{
+				"name": "price",
+				"type": "String"
+			},
+			{
+				"name": "x",
+				"type": "String"
+			},
+			{
+				"name": "y",
+				"type": "String"
+			},
+			{
+				"name": "z",
+				"type": "String"
+			}
+		]
+	}
+}
